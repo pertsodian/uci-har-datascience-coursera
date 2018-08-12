@@ -14,6 +14,6 @@ All processing and transformation steps for this project are contained in the R 
 4. Use descriptive activity names to name the activities in the data set
 5. Appropriately label the data set with descriptive variable names
 6. Average each measurement for each subject and activity, store this into a new independent data set
-7. Export the newly created average data set into a CSV file - `tidyDataSet.csv`
+7. Export the newly created average data set into a TXT file - `tidyDataSet.txt`
 
 Make sure to change your working directory to the same directory containing `run_analysis.R` before sourcing the script.

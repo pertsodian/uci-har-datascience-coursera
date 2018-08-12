@@ -107,11 +107,11 @@ message("Averaging measurements completed")
 
 #############################################################################
 
-# Export averageDT to a csv file
+# Export averageDT to a txt file
 
 message("Exporting average data table...")
 
-tidyDataSetName <- "tidyDataSet.csv"
-write.table(averageDT, tidyDataSetName, row.names = FALSE, quote = FALSE, sep=",")
+tidyDataSetName <- "tidyDataSet.txt"
+write.table(averageDT, tidyDataSetName, row.names = FALSE, quote = FALSE)
 
 message("Data table export completed")
